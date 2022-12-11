@@ -5,4 +5,17 @@
     width: 100%;
     height: calc(100vh - 100px);   
     background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    > *{
+        width: 100vw;
+    height: calc(100vh - 100px);
+    scroll-snap-align: start;
+    }
 }
