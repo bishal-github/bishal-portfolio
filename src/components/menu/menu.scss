@@ -14,9 +14,11 @@ align-items: center;
 justify-content: center;
 transition: all 1s ease;
 
-&.active{
-    right: 0;
-}
+&.active {
+        right: 0;
+    }
+
+
 ul{
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ ul{
     width: 60%;
 
     li{
-        margin: 20px;
+        margin-bottom: 25px;
         a{
             font-size: inherit;
             color: inherit;
@@ -39,3 +41,5 @@ ul{
 }
 
 }
+
+
